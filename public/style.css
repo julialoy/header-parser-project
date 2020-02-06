@@ -1,38 +1,42 @@
 /****** Main Styling ******/
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
+	color: white;
+	background-color: #36454f;
 	line-height: 1.4em;
 }
 
-.container {
-	padding: 0;
-	margin-top: 40px;
+.header {
+  padding: 5rem 0 5rem 0;
+  color: white;
 }
 
-h3 {
-  margin-top: 30px;
+#user-story {
+  background-color: white;
+  border-radius: 10px;
+  filter: drop-shadow(3px 3px 3px black);
+  color: black;
+	margin: 2rem;
+  padding: 1rem;
+  max-width: 700px;
 }
 
-.footer {
-	margin-top: 40px;
+h2 {
+  font-style: strong;
+  margin-top: 2rem;
 }
 
 .user-stories {
   position: relative;
   text-align: justify;
-  max-width: 700px;
-  margin: 15px auto;
 }
 code {
   font-family: monospace;
   padding: 2px;
-  color: black;
-  background-color: #fff;
+  color: white;
+  background-color: #364652;
 }
 ol {
 	list-style-position: outside;
@@ -48,6 +52,20 @@ li {
   margin-bottom: 1em;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  
+}
+
 a {
-	color: #2574A9;
+	color: white;
+}
+
+a:hover {
+  color: lightgrey;
+  text-decoration: none;
 }
